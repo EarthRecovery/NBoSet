@@ -2,7 +2,7 @@ import serial
 from time import sleep
 
 # 设置蓝牙串口设备名称
-port = '/dev/rfcomm0'  
+port = '/dev/rfcomm1'  
 
 # 初始化串口对象
 ser = serial.Serial(port, 9600)
